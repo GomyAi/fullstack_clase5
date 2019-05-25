@@ -1,0 +1,10 @@
+6.- Apuesta(shot1,shot2,shot3)
+6.- Estoy jugando un juego de dados, gano si saco el 
+mismo número en dos de los tres dados. Descubre si gané o no.
+
+INICIO
+    LEER shot1
+    LEER shot2
+    LEER shot3
+
+    SI 

@@ -1,0 +1,13 @@
+///1- Felicidad o hambre(hambre)
+INCIO 
+    LEER hambre //hambre is a boolen true or false 
+    SI hambre 
+    SI hamnre ENTONCES
+        ESCRIBIR "Estory triste"
+    SINO          
+        ESCRIBIR "Estoy feliz "
+    FIN-SI
+FIN
+
+
+

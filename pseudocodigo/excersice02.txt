@@ -1,0 +1,24 @@
+
+
+2.- Soy en personaje en un videojuego, y 
+dependiendo del nivel tengo cierto título: Cuando empiezo 
+soy “Aprendiz” si llego al nivel 10 evoluciono a “Acróbata” y s
+i paso del nivel 20 me hago un “ninja” ¿Que soy actualmente?
+
+INCIO 1- Felicidad o hambre(hambre)
+    LEER que nivel soy? 
+  
+   SI  que nivel soy? <=10
+     ENTONCES ERES APRENDIZ
+    
+    SINO que nivel soy? <=19
+        ENTONCES ERES ACROBATA
+    SINO que nivel soy? >= 20 ENTONCES         
+        ESCRIBIR ERES NINJA
+    FIN SI
+
+FIN
+
+
+
+

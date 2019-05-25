@@ -1,0 +1,21 @@
+4.- Tengo 3 examenes este semestre y mi papá me dijo que me 
+daría un premio si tengo un promedio final de 8.5 o más, pero si repruebo me 
+va a castigar.  ¿Cual fue mi destino?
+
+    INICIO
+    LEER promedio
+
+    examen1 
+    examen 2
+    examen 3
+
+    promedio = examen1 + examen2 + examen 3 / 3
+
+    SI promedio >= 8.5 ENCONTES
+        ESCRIBE "You won a gift"
+    SINO SI promedion >=6 ENTONCES
+         ESCRIBE "No reprobaste pero no ganaste premio"
+    SINO
+        ESCRIBE "reprobaste"
+    FIN SI
+FIN
