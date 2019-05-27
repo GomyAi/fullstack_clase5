@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Excersice06</title>
+</head>
+<body>
+    <script type ="application/javascript">
+                
+        let shot1 = parseInt(prompt("Dado 1"))  
+        let shot2 = parseInt(prompt("Dado 2"))  
+        let shot3 = parseInt(prompt("Dado 3"))  
+        
+        if(shot1 == shot2 && shot2 == shot3) { // todos tienen el mismo numero true || true =  true
+            alert("Dados iguales = ganaste tres de tres ");
+            }else if (shot1 == shot2 || shot2 == shot3) { // false || true = true because or 
+                alert("Ganaste dos de tres ");
+            }else{
+                alert("perdiste"); //si los tres son falsos = false
+
+            }
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Excersice04</title>
+</head>
+<body>
+    <script type ="application/javascript">
+
+         let examen1 = parseFloat(prompt("Examen uno fue de: "))
+         let examen2=  parseFloat(prompt("Examen dos fue de: "))
+         let examen3= parseFloat(prompt("Examen tres fue de: "))
+  
+         
+    let promedio;
+    let promedioEsperado = 8.5;
+    function total () {
+        promedio = (examen1 + examen2 + examen3) / 3;
+    
+    }total ();
+    
+    if (promedio >= promedioEsperado){
+        alert("Promedio de: "+ promedio + "Felicidades! ganaste un premio")
+    }else if (promedio >= 6 ){
+       alert("No ganaste premio, pero has pasado el semestre :3, tu promedio fue de: " + promedio)
+    }else {
+        alert("Has reprobado, promedio final de: " + promedio)
+    
+    }
+    </script>
+</body>
+</html>
+

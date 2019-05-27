@@ -9,10 +9,10 @@ INICIO
     SI nombre === "yesica" ENCONTES
         SI contraseña ==="Test123" ENCONTES
             ESCRIBE "Bienvenido Yesica n.n"
-        SINO
+        SINO ENTONCES
             ESCRIBE "Contraseña incorrecta
         FIN-SI
-    SINO
+    SINO ENTONCES
         ESCRIBE "Error"
     FIN SI
 FIN

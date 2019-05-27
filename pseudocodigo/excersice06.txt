@@ -7,4 +7,9 @@ INICIO
     LEER shot2
     LEER shot3
 
-    SI 
+    SI shot1 === shot2 && shot2 == =shot3 ENTONCES
+        ESCRIBIR Dados iguales = ganaste tres de tres 
+    SINO shot1 == shot2 || shot2 == shot3 ENTONCES
+        ESCRIBIR Ganaste dos de tres
+    SINO ENTONCES
+        ESCRIBIR Perdiste

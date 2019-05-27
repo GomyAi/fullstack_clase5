@@ -11,8 +11,8 @@ INCIO 1- Felicidad o hambre(hambre)
    SI  que nivel soy? <=10
      ENTONCES ERES APRENDIZ
     
-    SINO que nivel soy? <=19
-        ENTONCES ERES ACROBATA
+    SINO que nivel soy? <=19 ENTONCES
+        ESCRIBIR ERES ACROBATA
     SINO que nivel soy? >= 20 ENTONCES         
         ESCRIBIR ERES NINJA
     FIN SI

@@ -1,15 +1,19 @@
 5.- Estoy inscrito a muchas clases porque me gusta
  aprender: Los lunes y miércoles voy a Historia, los martes a natacion, los jueves a esgrima y los demás días descanso. Dime a qué clase voy si te digo un día.
 
-
     INICIO
     LEER DIA
 
-    LUNES 
-    MARTER 
-    MIERCOLES
-    JUEVES 
-    VIERNES
+   diaSemana (lunes, martes, miercoles, jueves, viernes,sabado,domingo)
 
+    SI DIA === DiaSemana.lunes || diasSelect === DiaSemana.lunes
+        ENTONCES ESCRIBIR Toca Historia
+    SINO DIA === DiaSemana.martes
+        ENTONCES ESCRIBIR Toca natacion
+    SINO DIA === DiaSemana.jueves
+        ENTONCES ESCRIBIR Toca esgrima
+    SINO
+        ENTONCES ESCRIBIR descanso
+    FIN SI
 
 FIN
